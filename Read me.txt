@@ -1,1 +1,0 @@
-Nesta pasta se encontra duas formas de executar um script em javascript, utilizando html e nodejs.
