@@ -7,7 +7,7 @@ e imprimir a propriedade janela no console
 let onibus = {
     rodas: 8,
     limiteDePassageiros:40,
-    portas:2
+    portas:3
 }
 
 
