@@ -11,7 +11,7 @@ class ContaPadrao {
     constructor(saldo, cp) {
         this.saldo = saldo; // Conta corrente
         this.contaPoupanca = cp; // Conta Poupança
-        this.poupancaJuros = 0.8; // Juros da Poupança
+        this.juros = 0.8; // Juros da Poupança
     }
     get extrato() {
         return 'Seu saldo é de ' + this.saldo;
@@ -46,7 +46,7 @@ class ContaPadrao {
 class ContaEspecial extends ContaPadrao {
     constructor(saldo, cp) {
         super(saldo, cp);
-        this.poupancaJuros = this.poupancaJuros*2;
+        this.juros = this.juros*2;
     }
 }
 
